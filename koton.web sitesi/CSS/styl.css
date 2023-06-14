@@ -1,0 +1,334 @@
+
+@media only screen and(min-whidt:400px){
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 100px;
+    width: 80%;
+    margin-left: 40%;
+    padding: 20px;
+}
+
+.iconbar{
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 75%;  
+}
+
+.button{
+    display: flex;
+    gap: 1rem;
+    padding-left: 75%;
+    padding-top: 2%;
+}
+
+.button p{
+    border-bottom: 1px solid;
+}
+
+
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    
+}
+
+li{
+    left: auto;
+    margin-right: 1px;
+    display: inline-block;
+   
+}
+
+li a{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    display: inline-block;
+     min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: color 0.15s ease-in-out;
+}
+
+
+li a:hover{
+    background-color:orangered;
+    color: white;
+    
+}
+
+
+li ul li a{
+    min-width: 250px;
+    float:none;
+    background-color: gray;
+    color:white;
+    text-align: left;
+    padding-left:5px ;
+    transition: background-color 0.1s;
+}
+
+li ul li a:hover{
+    background-color:#F37F20;
+}
+
+li ul{
+    display: none;
+}
+
+ul li a:hover+.hidden,.hidden:hover {
+    display: block;
+}
+
+
+
+.slider-1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner{
+    width: 100%;
+    margin: 50px 0px 5px 0px;
+}
+
+
+.foto-1 img{
+    padding: 20px 20px 5px 100px;
+    margin: auto;
+    display :inline-block
+}
+
+.foto-1 h1{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.foto-1 p{
+    font-size: medium;
+    padding-left: 20px;
+}
+
+.foto-2 .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(1rem, 1fr));
+    gap: 1rem;
+    padding: 20px 20px 20px 20px ;
+    margin: 10px 40px 10px 40px;
+    
+
+}
+
+.foto-2 .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.foto-2 .box-container .box h1{
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+.foto-3{
+    padding: 10px 80px 10px 80px;
+    
+}
+
+.center{
+    color: black;
+    position: absolute;
+    left: 500px;
+    bottom: -300%;
+    font-size: 22px;
+}
+.center p{
+    font-size: 22px;
+    padding: 1px 0 0 70px;
+}
+
+
+.foto-4 .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(1rem, 1fr));
+    gap: 1rem;
+    padding: 20px 20px 20px 20px ;
+    margin: 10px 40px 10px 40px;
+
+}
+
+.foto-4 .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.foto-4 .box-container .box h1{
+    font-size: large;
+}
+
+.slider-2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-2 .carousel-inner h1{
+    font-size: 14px;
+}
+
+.slider-2 .carousel-inner p{
+    color: red;
+}
+
+
+
+
+.foto-5{
+    padding: 20px 10px 5px 10px;
+}
+
+.foto-5 h1{
+    font-size: 22px;
+    padding: 10px 50px 5px 480px;
+}
+
+.foto-5 h2{
+    font-size: 15px;
+    padding: 5px 50px 5px 500px;
+}
+.foto-5 form{
+    padding: 5px 0 10px 0;
+    text-align: center;
+    display:block;
+    
+}
+
+
+
+
+.footerContainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    margin: 10px 20px 5px 5px;
+    padding: 10px 150px 10px 5px;
+    gap: 1.5rem;
+    
+}
+
+
+.footerbox-1{
+    width: 100%;
+    position: relative;
+    left: 50px;
+    
+    
+    
+}
+.footerbox-1 h1{
+    font-size: larger;
+}
+.footerbox-1 h2{
+    font-size: medium;
+}
+.footerbox-2{
+   position: relative;
+   right: 280px;
+   top: 150px;
+   display:flex;
+   gap: 1rem;
+   
+  
+}
+ .footerbox-3{
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+    font-size: 5px;
+    line-height: 25px; 
+}
+.footerbox-3 a{
+    font-size:small;
+    margin: 5px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+
+}
+.footerbox-4{
+    padding: 0px 5px 0px 5px;
+    margin-left: 5px;
+    font-size: 5px;
+    line-height: 25px; 
+}
+.footerbox-4 a{
+    font-size:small;
+    margin: 5px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+.footerbox-5{
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+    font-size: 5px;
+    line-height: 25px; 
+}
+.footerbox-5 a{
+    font-size:small;
+    margin: 5px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+}
+.footerbox-6{
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+    font-size: 5px;
+    line-height: 25px; 
+}
+.footerbox-6 a{
+    font-size:small;
+    margin: 5px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+}
+.footerbox-7{
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+    font-size: 5px;
+    line-height: 25px; 
+}
+.footerbox-7 a{
+    font-size:small;
+    margin: 5px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+}
+
+    
